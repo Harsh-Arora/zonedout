@@ -132,6 +132,15 @@
         font-size: 1.75em;
     }
 
+    .navbar-custom .navbar-brand span{
+        display: none;
+    }
+
+    .navbar-custom .navbar-brand img{
+        width: 80%;
+        padding: 0 20px;
+    }
+
     /* change the link color */
     .navbar-custom .navbar-nav .nav-link {
         margin: 0 5px;
@@ -150,6 +159,16 @@
     .navbar-custom .navbar-brand,
     .navbar-custom .navbar-text {
         font-size: 1.25em;
+    }
+
+    .navbar-custom .navbar-brand span{
+        display: inline-block;
+    }
+
+    .navbar-custom .navbar-brand img{
+        width: 30%;
+        padding: 0 10px 0 0;
+        /* display: none; */
     }
 }
 
