@@ -1,0 +1,27 @@
+.slider{
+    padding: 95px 0 0 0;
+}
+
+@media (max-width: 1024px){
+    .slider{
+        padding: 85px 0 0 0;
+    }
+}
+
+@media (max-width: 768px){
+    .slider{
+        padding: 75px 0 0 0;
+    }
+}
+
+@media (max-width: 425px){
+    .slider{
+        padding: 60px 0 0 0;
+    }
+
+    .slider .carousel-item img{
+        height: 300px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}

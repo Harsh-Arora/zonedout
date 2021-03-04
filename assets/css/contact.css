@@ -1,0 +1,15 @@
+.contact{
+    padding: 0 !important;
+}
+
+.contact .col-md-4{
+    text-align: center;
+}
+
+.contact .col-md-4 i{
+    font-size: 2em;
+}
+
+.contact .col-md-4 p{
+    padding: 10px 0;
+}

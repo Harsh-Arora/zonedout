@@ -1,0 +1,42 @@
+.services{}
+
+.owl-carousel{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.owl-carousel *{
+    overflow: visible !important;
+}
+
+.owl-carousel .item{
+    box-shadow: 0px 0px 15px #999;
+}
+
+.owl-carousel .item .box{
+    background: var(--white);
+    padding: 20px;
+    
+}
+
+.owl-carousel .item .box .head{
+    text-align: center;
+    font-size: 1.25em;
+    font-family: b;
+    padding: 5px 0;
+}
+
+.owl-carousel .item .box p{
+    text-align: center;
+    font-size: .75em;
+    /* display: none; */
+}
+
+.owl-carousel .item .box a{
+    color: var(--theme);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .75em;
+}

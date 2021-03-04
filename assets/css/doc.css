@@ -1,0 +1,48 @@
+.doc{}
+
+.doc .btns{
+    /* border: 1pt solid red; */
+    text-align: center;
+    justify-content: center;
+}
+
+.doc .btns .btn{
+    width: 100%;
+    background: var(--theme);
+    color: #fff;
+    font-family: b;
+    transition: .3s;
+    margin: 10px 0;
+}
+
+.doc .btns .btn:hover{
+    background: var(--themeDark);
+}
+
+.doc .filter{
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+.doc .filter .grid{
+    position: normal;
+    margin: 10px 0 !important;
+}
+
+.doc .filter .grid .card-title{
+    font-family: b;
+    font-size: 1.25em;
+}
+
+.doc .filter .grid .card-text{
+    font-family: sb;
+    font-size: .75em;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.doc .filter .grid a{
+    padding: 20px 0;
+    font-size: .9em;
+    color: var(--theme);
+}

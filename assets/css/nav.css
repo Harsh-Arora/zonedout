@@ -1,0 +1,161 @@
+/* Navbar */
+.navbar-custom {
+    background-color: var(--theme);
+    padding: 10px 50px;
+    /* border-bottom: 1pt solid rgba(255,255,255,0.5); */
+    transition: .3s;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+    transition: .3s;
+    font-size: 2.25em;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    transition: .3s;
+    margin: 0 10px;
+    /* font-weight: bold; */
+    /* font-size: 1.25em; */
+}
+
+.navbar-custom .navbar-nav .nav-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover::after {
+    animation: grow;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #fff;    
+}
+
+.custom-toggler.navbar-toggler { 
+	border-color: #fff; 
+} 
+          
+.custom-toggler .navbar-toggler-icon { 
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+/* action btn */
+.nav-action{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 0 0 10px;
+    transition: .5s;
+}
+
+.nav-action .nav-link{
+    color: #222 !important;
+}
+
+.nav-action:hover{
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.52);
+    /* -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.52); */
+    /* -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.52); */
+
+}
+
+/* On scroll */
+.navScroll{
+    /* background: rgba(1,1,1,.8); */
+    background: var(--theme);
+    padding: 0px 50px;
+    -webkit-box-shadow: 3px 0px 30px var(--black);
+    /* -moz-box-shadow: 0 8px 6px -6px #999; */
+    /* box-shadow: 0 8px 6px -6px #999; */
+}
+
+.navScroll .navbar-brand{
+    font-size: 2em;
+}
+
+.navScroll .navbar-nav .nav-link{
+    font-size: .9em;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-custom .navbar-brand, .navbar-custom .navbar-text {
+        font-size: 1.25em;
+    }
+}
+
+/* Screen 1024 */
+@media (max-width: 1024px){
+    .navbar-custom {
+        padding: 10px 0;
+    }
+
+    /* change the brand and text color */
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: #fff;
+        font-size: 2em;
+    }
+
+    /* change the link color */
+    .navbar-custom .navbar-nav .nav-link {
+        margin: 0 5px;
+    }
+
+    /* Action btn */
+    .nav-action{
+        margin: 0 0 0 5px;
+    }
+    
+}
+
+/* Screen 768 */
+@media (max-width: 768px){
+    /* change the brand and text color */
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        font-size: 1.75em;
+    }
+
+    /* change the link color */
+    .navbar-custom .navbar-nav .nav-link {
+        margin: 0 5px;
+    }
+
+    /* Action btn */
+    .nav-action{
+        width: fit-content;
+        margin: 0;
+        padding: 0 5px;
+    }   
+}
+
+/* Screen 425 */
+@media (max-width: 425px){
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 320px){
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        font-size: 1.05em;
+    }
+}
