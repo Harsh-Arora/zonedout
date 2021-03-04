@@ -1,11 +1,12 @@
 .join{
-    background-image: url('../images/joinbg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
+    /* background-image: url('../images/joinbg.jpg'); */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* border: 1pt solid red; */
 }
 
 .join .row{
-    padding: 50px 0;
+    /* padding: 50px 0; */
     margin: 0;
     justify-content: center;
 }
@@ -22,7 +23,7 @@
     font-family: nm;
     font-size: 1em;
 
-    background: transparent;
+    background: var(--theme);
     border: 1.5pt solid white;
     color: white;
     border-radius: 10px;
@@ -30,7 +31,6 @@
 
 .join .row .col-md-3 .btn:hover{
     background: var(--white);
-    border-color: var(--white);
-    color: var(--theme);
-    
+    border-color: var(--theme);
+    color: var(--theme);   
 }

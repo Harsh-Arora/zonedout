@@ -1,0 +1,23 @@
+.types{
+    background: var(--theme);
+    color: #fff;
+}
+
+.types .row{
+    margin: 0;
+}
+
+.types .sec .card{
+    border: 0;
+    border-radius: 20px;
+}
+
+.types .sec .card img{
+    border-radius: 20px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.types .sec .card .card-title{
+    font-size: 2em;
+}
