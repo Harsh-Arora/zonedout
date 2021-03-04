@@ -136,10 +136,6 @@
         font-size: 1.75em;
     }
 
-    .navbar-custom .navbar-brand span{
-        display: none;
-    }
-
     .navbar-custom .navbar-brand img{
         width: 80%;
         padding: 0 20px;

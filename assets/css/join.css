@@ -34,3 +34,15 @@
     border-color: var(--theme);
     color: var(--theme);   
 }
+
+@media (max-width: 768px){
+    .join .row .col-md-3{
+        width: 50%;
+    }
+}
+
+@media (max-width: 425px){
+    .join .row .col-md-3{
+        width: 100%;
+    }
+}

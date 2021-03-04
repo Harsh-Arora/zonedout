@@ -21,3 +21,15 @@
 .types .sec .card .card-title{
     font-size: 2em;
 }
+
+@media (max-width: 768px){
+    .types .sec .card{
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 425px){
+    .types .sec .card img{
+        height: 350px;
+    }
+}

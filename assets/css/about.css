@@ -32,7 +32,7 @@
 
 @media (max-width: 768px){
     .about{
-        text-align: center;
+        /* text-align: center; */
     }
     .mv .sec{
         padding: 0;
