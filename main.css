@@ -28,6 +28,11 @@
     src: url(assets/fonts/Overpass-Bold.ttf);
 }
 
+@font-face {
+    font-family: title;
+    src: url(assets/fonts/Playlist-Script.otf);
+}
+
 html{
     height: 100%;
 }
@@ -62,6 +67,7 @@ a:hover{
     font-size: 3em;
     padding: 0 0 25px 0;
     text-align: center;
+    font-family: title;
 }
 
 @media (max-width: 1024px){

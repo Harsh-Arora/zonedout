@@ -12,6 +12,7 @@
     color: #fff;
     transition: .3s;
     font-size: 2.25em;
+    font-family: title;
 }
 
 .navbar-custom .navbar-brand img{
