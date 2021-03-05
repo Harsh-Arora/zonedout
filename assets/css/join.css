@@ -3,6 +3,8 @@
     /* background-attachment: fixed; */
     /* background-size: cover; */
     /* border: 1pt solid red; */
+    /* background: var(--theme); */
+    /* padding: 0 !importants; */
 }
 
 .join .row{

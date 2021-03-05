@@ -13,7 +13,7 @@
 
 
 
-@font-face {
+/* @font-face {
     font-family: nm;
     src: url(assets/fonts/Overpass-Regular.ttf);
 }
@@ -26,11 +26,21 @@
 @font-face {
     font-family: b;
     src: url(assets/fonts/Overpass-Bold.ttf);
+} */
+
+/* @font-face {
+    font-family: title;
+    src: url(assets/fonts/Playlist-Script.otf);
+} */
+
+@font-face {
+    font-family: b;
+    src: url(assets/fonts/PT_Sans-Web-Bold.ttf);
 }
 
 @font-face {
-    font-family: title;
-    src: url(assets/fonts/Playlist-Script.otf);
+    font-family: nm;
+    src: url(assets/fonts/PT_Sans-Web-Regular.ttf);
 }
 
 html{
