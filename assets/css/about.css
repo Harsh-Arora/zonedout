@@ -4,8 +4,20 @@
     /* color: #fff; */
 }
 
-.mv{
+.about span{
+    font-family: b;
+}
+
+.mv .head{
     text-align: center;
+}
+
+.about .container li{
+    margin: 15px 0;
+}
+
+.mv{
+    /* text-align: center; */
     padding: 40px;
 }
 

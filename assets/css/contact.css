@@ -13,3 +13,13 @@
 .contact .col-md-4 p{
     padding: 10px 0;
 }
+
+.contact1{
+    text-align: center !important;
+}
+
+.contact1 .row{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}

@@ -23,7 +23,7 @@
 
 .numbers .inner .count{
     text-align: center;
-    padding: 50px;
+    padding: 25px ;
     border: 2pt solid #fff;
     width: 75%;
     margin: 0 auto;
@@ -37,7 +37,7 @@
     font-family: sb;
 }
 
-.numbers .inner .col-md-4 p{
+.numbers .inner .col-md-3 p{
     color: #fff;
     text-align: center;
     padding: 10px 0;

@@ -51,7 +51,7 @@ $('.owl-carousel').owlCarousel({
 
 jQuery(document).ready(function( $ ) {
     $('.num').counterUp({
-        delay: 10,
-        time: 1000
+        delay: 20,
+        time: 2000
     });
 });
