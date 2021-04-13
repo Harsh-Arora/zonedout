@@ -13,17 +13,17 @@
 
 .number1 .inner{
     background-image: url("../images/numbg-old.jpg");
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 .numbers .inner .title{
-    padding: 0 0 50px 0;
+    padding: 0 0 10px 0;
     color: #fff;
 }
 
 .numbers .inner .count{
     text-align: center;
-    padding: 25px ;
+    padding: 10px ;
     border: 2pt solid #fff;
     width: 75%;
     margin: 0 auto;
@@ -33,7 +33,7 @@
 }
 
 .numbers .inner .count .num{
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: sb;
 }
 
@@ -45,7 +45,7 @@
 
 @media (max-width: 1024px){
     .numbers .inner .count{
-        padding: 50px;
+        padding: 5px;
     }
     .numbers .inner .count .num{
         font-size: 3em;
@@ -54,20 +54,20 @@
 
 @media (max-width: 768px){
     .numbers .inner .count{
-        padding: 30px;
+        padding: 5px;
         width: 100%;
     }
     .numbers .inner .count .num{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
 
 @media (max-width: 425px){
     .numbers .inner .count{
-        padding: 30px;
+        padding: 5px;
         width: 80%;
     }
     .numbers .inner .count .num{
-        font-size: 2.25em;
+        font-size: 1.5em;
     }
 }

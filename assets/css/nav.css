@@ -6,17 +6,29 @@
     transition: .3s;
 }
 
+.navbar .container-fluid{
+
+}
+
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: #fff;
     transition: .3s;
     font-size: 2.25em;
-    /* font-family: title; */
+    padding: 0 0 0 5px;
 }
 
 .navbar-custom .navbar-brand img{
-    width: 10%;
+    width: 15%;
+    transition: .3s;
+}
+
+.navbar-custom .navbar-nav{
+    width: max-content;
+}
+
+.navbar-custom .navbar-toggler{
+    width: max-content;
 }
 
 /* change the link color */
@@ -24,8 +36,7 @@
     color: #fff;
     transition: .3s;
     margin: 0 10px;
-    /* font-weight: bold; */
-    /* font-size: 1.25em; */
+    position: relative;
 }
 
 .navbar-custom .navbar-nav .nav-link::after {
@@ -84,7 +95,7 @@
 .navScroll{
     /* background: rgba(1,1,1,.8); */
     background: var(--theme);
-    padding: 0px 50px;
+    padding: 5px 50px;
     -webkit-box-shadow: 3px 0px 30px var(--black);
     /* -moz-box-shadow: 0 8px 6px -6px #999; */
     /* box-shadow: 0 8px 6px -6px #999; */
@@ -92,6 +103,10 @@
 
 .navScroll .navbar-brand{
     font-size: 2em;
+}
+
+.navScroll .navbar-brand img{
+    width: 10%;
 }
 
 .navScroll .navbar-nav .nav-link{
@@ -138,8 +153,18 @@
     }
 
     .navbar-custom .navbar-brand img{
-        width: 80%;
+        width: 15%;
         padding: 0 20px;
+    }
+
+    button.navbar-toggler {
+        position: absolute !important;
+        right: 10px !important;
+        top: 14px !important;
+    }
+
+    .navbar-custom .navbar-nav{
+        margin-left: 0 !important;
     }
 
     /* change the link color */
@@ -167,7 +192,7 @@
     }
 
     .navbar-custom .navbar-brand img{
-        width: 30%;
+        width: 25%;
         padding: 0 10px 0 0;
         /* display: none; */
     }
